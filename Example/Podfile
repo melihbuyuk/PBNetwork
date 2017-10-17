@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PBNetwork_Tests' do
+  pod 'PBNetwork', :path => '../'
+  
+  
+end
