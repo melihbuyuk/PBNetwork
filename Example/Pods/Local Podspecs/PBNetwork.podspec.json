@@ -1,0 +1,22 @@
+{
+  "name": "PBNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of PBNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Melih Büyükbayram/PBNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Melih Büyükbayram": "melih@petsbook.com"
+  },
+  "source": {
+    "git": "https://github.com/Melih Büyükbayram/PBNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PBNetwork/Classes/**/*"
+}

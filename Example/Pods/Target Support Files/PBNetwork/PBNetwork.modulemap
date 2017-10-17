@@ -1,0 +1,6 @@
+framework module PBNetwork {
+  umbrella header "PBNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
