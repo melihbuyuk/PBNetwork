@@ -31,12 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PBNetwork/Classes/**/*'
-  
+  s.exclude_files = "PBNetwork/Classes/Extensions/CashierExtension.swift", "PBNetwork/Classes/Extensions/AlamofireExtension.swift"
+
   # s.resource_bundles = {
   #   'PBNetwork' => ['PBNetwork/Assets/*.png']
   # }
 
+
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Alamofire', '~> 4.1'
+   s.dependency 'Cashier', '~> 1.2.1'
 end
